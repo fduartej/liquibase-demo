@@ -45,6 +45,9 @@
 					<plugin>
 						<groupId>org.liquibase</groupId>
 						<artifactId>liquibase-maven-plugin</artifactId>
+						<configuration>
+					                <promptOnNonLocalDatabase>false</promptOnNonLocalDatabase>
+        				        </configuration>						
 						<executions>
 							<execution>
 								<phase>install</phase>
@@ -64,6 +67,9 @@
 					<plugin>
 						<groupId>org.liquibase</groupId>
 						<artifactId>liquibase-maven-plugin</artifactId>
+						<configuration>
+					                <promptOnNonLocalDatabase>false</promptOnNonLocalDatabase>
+        				        </configuration>						
 						<executions>
 							<execution>
 								<phase>install</phase>
@@ -83,6 +89,9 @@
 					<plugin>
 						<groupId>org.liquibase</groupId>
 						<artifactId>liquibase-maven-plugin</artifactId>
+						<configuration>
+					                <promptOnNonLocalDatabase>false</promptOnNonLocalDatabase>
+        				        </configuration>						
 						<executions>
 							<execution>
 								<phase>install</phase>
